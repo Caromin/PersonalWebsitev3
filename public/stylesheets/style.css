@@ -1,5 +1,5 @@
 body {
-    font-weight: 300px;
+    font-weight: 300;
     font: 1em "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -8,13 +8,32 @@ body {
     height: 100%;
 }
 
+.fullcover {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.rightColumnInfo {
+    height: 100%;
+    width: 75%;
+}
+
+.width50p {
+    width: 50%;
+}
+
+.width75p {
+    width: 75%;
+}
+
 .lefttoppadding {
     padding-left: 100px;
     padding-top: 25px;
 }
 
 .leftpadding {
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .margintop {
@@ -29,11 +48,6 @@ body {
     margin-right: 20px;
 }
 
-.bluetextbold {
-    color: #3295be;
-    font-weight: 500;
-}
-
 .whitetext {
     color: #FFF;
 }
@@ -44,6 +58,11 @@ body {
 
 .boldthick {
     font-weight: 800;
+}
+
+.bluetextbold {
+    color: #3295be;
+    font-weight: 500;
 }
 
 .blacktextbold {
@@ -78,18 +97,18 @@ body {
     background: #FFF;
 }
 
+.graytextborder {
+    color: gray;
+    height: 25px;
+    padding: 15px 5px;
+    margin: 0 5px 5px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
 .leftColumnInfo {
     height: 100%;
     width: 25%;
-}
-
-.rightColumnInfo {
-    height: 100%;
-    width: 75%;
-}
-
-.width75p {
-    width: 75%;
 }
 
 .bluesection {
@@ -107,10 +126,6 @@ body {
     background: #FFF;
 }
 
-#mainHeading {
-    font-size: 3.5em;
-}
-
 .box {
     min-height: 50px;
     padding: 15px;
@@ -120,47 +135,53 @@ body {
     margin-bottom: 25px;
 }
 
-.width50p {
-    width: 50%;
-}
-
-.projects {
-    border-radius: 25px;
-}
-
-#project1 {
-    height: 300px;
-    width: 300px;
-    background: url('../images/project1.png') no-repeat center;
-    background-size: cover;
-}
-
-#project2 {
-    height: 300px;
-    width: 300px;
-    background: url('../images/project2.png') no-repeat center;
-    background-size: cover;
-}
-
-.graytextborder {
-    color: gray;
-    height: 25px;
-    padding: 15px 5px;
-    margin: 0 5px 5px 0;
-    border: 1px solid gray;
-    border-radius: 5px;
-}
-
-.fullcover {
-    display:inline-block;
-    height: 100%;
-    width: 100%;
-}
-
 .circlelogo {
     margin-right: 10px;
     width: 50px;
     height: 50px;
     background: white;
     border-radius: 20px;
+}
+
+.projects {
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+#mainHeading {
+    font-size: 3.5em;
+}
+
+#project1 {
+    background: url('../images/project1.png') no-repeat center;
+    background-size: cover;
+}
+
+#project2 {
+    background: url('../images/project2.png') no-repeat center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1053px) {
+    .projects {
+        height: 350px;
+        width: 600px;
+    }
+
+    .rightColumnInfo {
+        width: 90%;
+    }
+    
+    .width75p {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1680px) {
+    .projects {
+        height: 300px;
+        width: 450px;
+    }
 }
