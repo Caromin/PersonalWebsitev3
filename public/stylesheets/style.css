@@ -186,18 +186,34 @@ div {
     background-size: cover;
 }
 
-@media screen and (max-width: 1053px) {
+@media screen and (max-width: 1150px) {
+    .lefttoppadding {
+        padding-left: 50px;
+    }
+
     .projects {
         height: 350px;
         width: 600px;
     }
-
-    .rightColumnInfo {
-        width: 90%;
-    }
     
     .width75p {
         width: 90%;
+    }
+    
+    #mainHeading {
+        font-size: 3em;
+    }
+
+    .blueSubHeading {
+        font-size: 1.5em;
+    }
+    
+    .graySubHeading {
+        font-size: 1.5em;
+    }
+    
+    .whiteSubHeading {
+        font-size: 1.5em;
     }
 }
 

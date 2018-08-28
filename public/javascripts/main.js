@@ -5,7 +5,7 @@ $(document).ready(function(){
         opacity: 0,
         delay: 0,
         duration: 2000,
-        interval: 1000,
+        interval: 300,
         viewOffset: {
             bottom: 100
         }
