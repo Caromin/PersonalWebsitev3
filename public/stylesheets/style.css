@@ -3,6 +3,10 @@ body {
     font: 1em "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+div {
+    overflow: hidden;
+}
+
 .h80 {
     min-height: 400px;
     height: 100%;
@@ -12,6 +16,10 @@ body {
     display: inline-block;
     height: 100%;
     width: 100%;
+}
+
+.fullcover:hover {
+    background: rgba(30, 103, 139, 0.6);
 }
 
 .rightColumnInfo {
@@ -70,6 +78,10 @@ body {
     font-weight: 500;
 }
 
+.blacktextbold:hover {
+    text-decoration: none;
+}
+
 .blueSubHeading {
     font-size: 2em;
     color: #3295be;
@@ -97,13 +109,18 @@ body {
     background: #FFF;
 }
 
-.graytextborder {
-    color: gray;
+.blacktextborder {
+    color: black;
     height: 25px;
     padding: 15px 5px;
     margin: 0 5px 5px 0;
-    border: 1px solid gray;
+    border: 1px solid black;
     border-radius: 5px;
+}
+
+.blacktextborder:hover {
+    background-color: #ffc0cb;
+    cursor: default;
 }
 
 .leftColumnInfo {
@@ -161,6 +178,11 @@ body {
 
 #project2 {
     background: url('../images/project2.png') no-repeat center;
+    background-size: cover;
+}
+
+#project3 {
+    background: url('../images/project3.png') no-repeat center;
     background-size: cover;
 }
 
