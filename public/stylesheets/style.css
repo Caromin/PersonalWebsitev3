@@ -167,6 +167,10 @@ div {
     margin-right: 20px;
 }
 
+.widthProgressBar {
+    width: 45%;
+}
+
 #mainHeading {
     font-size: 3.5em;
 }
