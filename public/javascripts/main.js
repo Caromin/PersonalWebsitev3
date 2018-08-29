@@ -82,15 +82,19 @@ $(document).ready(function(){
                             <a class='fullcover' href='${link}' target="_blank"></a>
                         </div>
                         <div class='marginbottom margintop'>
-                            <a class='blacktextbold' href='${link}' target="_blank">${title}</a>
+                            <a id="activeCheck" class='blacktextbold' href='${link}' target="_blank">${title}</a>
                         </div>
                         <div class='width75p d-flex flex-wrap'>
                             ${newLanguage}
                         </div>
                     </div>`;
 
-                $('#finishedProjects').append(projectContainer);
-                
+                if (active === true) {
+                    $('#finishedProjects').prepend(projectContainer);
+                    $("#activeCheck").html(`<span style="color: red;" class="boldthick">Active:</span> ${title}`);
+                } else {
+                    $('#finishedProjects').append(projectContainer);
+                }    
             })
         }
     });
