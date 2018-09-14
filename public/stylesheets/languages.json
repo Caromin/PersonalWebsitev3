@@ -1,31 +1,34 @@
 {
-    "projects": [
-        {
-            "active": false,
-            "id": "project1",
-            "link": "https://deliverytrackerv1.herokuapp.com/",
-            "title": "TrackerWorldMap",
-            "languages": [
-                "HTML5", "CCS3", "Firebase", "Node", "JavaScript"
-            ]
-        },
-        {
-            "active": false,
-            "id": "project2",
-            "link": "https://cheerioscrapper-aromin.herokuapp.com/",
-            "title": "MongoDB News Scrapper (HW)",
-            "languages": [
-                "HTML5", "CCS3", "Firebase", "Node", "JavaScript"
-            ]
-        },
-        {
-            "active": true,
-            "id": "project3",
-            "link": "https://chauffeurusgroupprojectv2.herokuapp.com/",
-            "title": "ChauffeurUS",
-            "languages": [
-                "HTML5", "CCS3", "MongoDB", "Node", "JavaScript"
-            ]
-        }
-    ]
+  "projects": [
+    {
+      "active": false,
+      "id": "project1",
+      "link": "https://deliverytrackerv1.herokuapp.com/",
+      "title": "TrackerWorldMap",
+      "languages": ["HTML5", "CCS3", "Firebase", "Node", "JavaScript"]
+    },
+    {
+      "active": false,
+      "id": "project2",
+      "link": "https://cheerioscrapper-aromin.herokuapp.com/",
+      "title": "MongoDB News Scrapper (HW)",
+      "languages": ["HTML5", "CCS3", "Firebase", "Node", "JavaScript"]
+    },
+    {
+      "active": false,
+      "id": "project3",
+      "link": "https://chauffeurusver3.herokuapp.com/",
+      "title": "ChauffeurUS",
+      "languages": [
+        "HTML5",
+        "SCSS",
+        "MongoDB",
+        "Node",
+        "JavaScript",
+        "React",
+        "React-Redux",
+        "React-Router-Dom"
+      ]
+    }
+  ]
 }

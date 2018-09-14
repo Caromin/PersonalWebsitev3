@@ -171,6 +171,10 @@ div {
     width: 45%;
 }
 
+.maxTagsWith {
+    max-width: 300px;
+}
+
 #mainHeading {
     font-size: 3.5em;
 }
@@ -194,28 +198,22 @@ div {
     .lefttoppadding {
         padding-left: 50px;
     }
-
     .projects {
         height: 350px;
         width: 600px;
     }
-    
     .width75p {
         width: 90%;
     }
-    
     #mainHeading {
         font-size: 3em;
     }
-
     .blueSubHeading {
         font-size: 1.5em;
     }
-    
     .graySubHeading {
         font-size: 1.5em;
     }
-    
     .whiteSubHeading {
         font-size: 1.5em;
     }
