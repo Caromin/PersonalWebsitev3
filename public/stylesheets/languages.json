@@ -27,7 +27,23 @@
         "JavaScript",
         "React",
         "React-Redux",
-        "React-Router-Dom"
+        "React-Router-Dom",
+        "Babel",
+        "Webpack"
+      ]
+    },
+    {
+      "active": true,
+      "id": "project4",
+      "link": "https://github.com/Caromin/iOSmyGymAppv2",
+      "title": "iOsGymApp (GitHub Only)",
+      "languages": [
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "React-Native",
+        "React-Redux",
+        "React-Navigation"
       ]
     }
   ]

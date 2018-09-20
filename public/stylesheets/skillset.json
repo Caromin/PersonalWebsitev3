@@ -6,14 +6,9 @@
       "value": "75"
     },
     {
-      "title": "JavaScript/jQuery",
-      "style": "50%",
-      "value": "50"
-    },
-    {
-      "title": "PHP",
-      "style": "15%",
-      "value": "15"
+      "title": "CSS3|SCSS",
+      "style": "65%",
+      "value": "65"
     },
     {
       "title": "Node",
@@ -21,14 +16,19 @@
       "value": "60"
     },
     {
-      "title": "CSS3|SCSS",
-      "style": "65%",
-      "value": "65"
+      "title": "JavaScript/jQuery",
+      "style": "50%",
+      "value": "50"
     },
     {
       "title": "React/React Native",
-      "style": "40%",
-      "value": "40"
+      "style": "50%",
+      "value": "50"
+    },
+    {
+      "title": "MongoDB",
+      "style": "35%",
+      "value": "35"
     },
     {
       "title": "MySQL",
@@ -36,9 +36,14 @@
       "value": "25"
     },
     {
-      "title": "MongoDB",
-      "style": "35%",
-      "value": "35"
+      "title": "PHP",
+      "style": "15%",
+      "value": "15"
+    },
+    {
+      "title": "Angular 2+",
+      "style": "10%",
+      "value": "10"
     }
   ]
 }

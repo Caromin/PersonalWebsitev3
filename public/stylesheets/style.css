@@ -194,6 +194,11 @@ div {
     background-size: cover;
 }
 
+#project4 {
+    background: url('../images/project4.png') no-repeat center;
+    background-size: cover;
+}
+
 @media screen and (max-width: 1150px) {
     .lefttoppadding {
         padding-left: 50px;
@@ -208,14 +213,11 @@ div {
     #mainHeading {
         font-size: 3em;
     }
-    .blueSubHeading {
+    .blueSubHeading, .graySubHeading, .whiteSubHeading {
         font-size: 1.5em;
     }
-    .graySubHeading {
-        font-size: 1.5em;
-    }
-    .whiteSubHeading {
-        font-size: 1.5em;
+    .maxTagsWith {
+        max-width: 80%;
     }
 }
 
